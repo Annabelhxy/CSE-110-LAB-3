@@ -35,14 +35,14 @@ export function ToDoList() {
     }
 
     return (
-        <div className="App">
-        <div className="App-body">
-        <h1>{name}'s To Do List</h1>
-            Items bought: {numRemainingItems}
-            <form action=".">
-            {items.map((item) => ListItem(item, handleCheckboxClick))}
-            </form>
-        </div>
+        <div className="center-content">
+            <div className="App-body">
+                <h1>{name}'s To Do List</h1>
+                Items bought: {numRemainingItems}
+                <form action=".">
+                {items.map((item) => ListItem(item, handleCheckboxClick))}
+                </form>
+            </div>
         </div>
     );
 }
