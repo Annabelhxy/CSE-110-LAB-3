@@ -1,3 +1,8 @@
+export const dummyGroceryList = [
+    { name: "Apples", isPurchased: false },
+    { name: "Bananas", isPurchased: false },
+]
+
 export enum Label {
     other = 'Other',
     personal = 'Personal',
